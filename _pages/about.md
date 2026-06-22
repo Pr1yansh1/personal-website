@@ -32,3 +32,11 @@ Right now, I work in the University of Washington School of Nursing on a Spanish
 More broadly, I think about clinical NLP, responsible AI, dataset construction, and conversational agents for sensitive contexts. I care about how the choices we make while building systems — the labels, prompts, data, evaluation methods, and deployment assumptions — shape what those systems can and cannot do for people.
 
 I'm also a Master's student in [Computational Linguistics](https://www.compling.uw.edu/) at the University of Washington. Before UW, I studied Computer Science at [Carnegie Mellon](https://www.cmu.edu/) and worked on GenAI infrastructure at [Kinetica](https://www.kinetica.com/), including [MCP tooling](https://pypi.org/project/kinetica-mcp/) and LangGraph-based agent systems. I like building complex AI systems, especially when building them also forces me to ask where they break, who they are for, and what it would take to make them safer and more useful in the real world.
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('h2 a[href$="/news/"]').forEach(function (el) {
+      el.textContent = 'updates';
+    });
+  });
+</script>
