@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two first-author papers accepted to the **CLPsych** workshop at **ACL 2026** (San Diego): the TB conversational agent system paper and "[Before the Labels: How Dataset Construction Shapes Suicidality Detection in Clinical Text](https://arxiv.org/html/2606.19637v1)".
+Two first-author papers accepted to **CLPsych** at **ACL 2026** (San Diego) — a systems paper and a [position paper](https://arxiv.org/html/2606.19637v1). CLPsych is the workshop on computational linguistics and clinical psychology, where folks working on NLP for mental health meet.
