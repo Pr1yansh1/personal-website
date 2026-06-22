@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://Pr1yansh1.github.io/personal-website/sitemap.xml
