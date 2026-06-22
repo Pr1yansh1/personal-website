@@ -1,10 +1,7 @@
 cv:
   name: Priyanshi Garg
-  label: MS Computational Linguistics, University of Washington
   email: pgarg2@uw.edu
   location: Seattle, WA
-  image: ""
-  summary: Research engineer working on conversational agents and clinical NLP. MS Computational Linguistics @ UW, BS CS @ CMU.
 
   social_networks:
     - network: GitHub
@@ -13,24 +10,25 @@ cv:
       username: priyanshi-garg-9680771b1
 
   sections:
+    Summary:
+      - Research engineer working on conversational agents and clinical NLP. MS Computational Linguistics @ UW, BS CS @ CMU.
+
     Education:
       - institution: University of Washington
         location: Seattle, WA
-        url: https://www.washington.edu/
         area: Computational Linguistics
-        studyType: MS
+        degree: MS
         start_date: 2025-09
         end_date: 2026-12
-        score: "3.86 / 4.0"
+        grade: "3.86 / 4.0"
 
       - institution: Carnegie Mellon University
         location: Pittsburgh, PA
-        url: https://www.cmu.edu/
         area: Computer Science (Concentration in Machine Learning, Minor in Russian Studies)
-        studyType: BS
+        degree: BS
         start_date: 2020-09
         end_date: 2024-05
-        score: "3.7 / 4.0"
+        grade: "3.7 / 4.0"
         highlights:
           - CMU Dean's List (multiple semesters) and CMU University Honors
           - WiML Graduate Grant (mentorship + funding for graduate applications)
@@ -41,7 +39,7 @@ cv:
         position: Research Engineer
         location: Seattle, WA
         start_date: 2025-09
-        end_date: Present
+        end_date: present
         highlights:
           - Built TB-DBTBot, a LangGraph conversational agent for Spanish-language TB treatment support (Claude Sonnet via AWS Bedrock, Chroma vector store) with three independently constrained pathways - retrieval-grounded medical QA, DBT-informed coping support, and static crisis handling with safety gating; system paper accepted at CLPsych @ ACL 2026.
           - Ran 5 rounds of structured evaluation with TB nursing collaborators and a mental health professional; built a failure-mode taxonomy across safety classification, multi-turn state tracking, and skill routing that informed downstream architecture revisions.
@@ -144,67 +142,38 @@ cv:
 
     Publications:
       - title: "Designing Structured Conversational Support for Tuberculosis Treatment Adherence and Patient Coping"
-        authors: Priyanshi Garg et al.
-        venue: CLPsych Workshop, ACL 2026
+        authors:
+          - Priyanshi Garg
+          - et al.
+        journal: "CLPsych Workshop, ACL 2026 (San Diego, CA) - First author; accepted; in-person presentation."
         date: 2026-07
-        location: San Diego, CA
-        note: First author; accepted; in-person presentation.
 
       - title: "Before the Labels: How Dataset Construction Shapes Suicidality Detection in Clinical Text"
-        authors: Priyanshi Garg et al.
-        venue: CLPsych Workshop, ACL 2026
+        authors:
+          - Priyanshi Garg
+          - et al.
+        journal: "CLPsych Workshop, ACL 2026 (San Diego, CA) - First author; accepted; in-person presentation."
         date: 2026-07
-        location: San Diego, CA
         url: https://arxiv.org/html/2606.19637v1
-        note: First author; accepted; in-person presentation.
 
       - title: "Surfacing Value Tensions and Tradeoffs in Proactive Conversational Agents"
-        authors: Priyanshi Garg
-        venue: ACM CHIIR 2026 Workshop on Human-Centered Proactive and Personalized Agents
+        authors:
+          - Priyanshi Garg
+        journal: "ACM CHIIR 2026 Workshop on Human-Centered Proactive and Personalized Agents (Seattle, WA) - Sole author; presented in person."
         date: 2026-03
-        location: Seattle, WA
         url: https://proactive-chiir.github.io/pages/accepted-paper.html
-        note: Sole author; presented in person.
 
       - title: "Care Is Not a Style Transfer Task: Evaluating Culturally Grounded Clinical AI"
-        authors: Priyanshi Garg
-        venue: Culture x AI Workshop, ICML 2026
+        authors:
+          - Priyanshi Garg
+        journal: "Culture x AI Workshop, ICML 2026 (Seoul, South Korea) - Sole author; accepted."
         date: 2026-07
-        location: Seoul, South Korea
         url: https://openreview.net/forum?id=Fb0PtkGyIY
-        note: Sole author; accepted.
 
     Skills:
-      - category: Languages & Tools
-        items:
-          - Python
-          - C/C++
-          - SQL
-          - Bash
-          - Git
-          - Docker
-          - CUDA
-          - AWS Bedrock
-          - NVIDIA NIM
-      - category: Frameworks & Libraries
-        items:
-          - PyTorch
-          - HuggingFace Transformers
-          - LangChain
-          - LangGraph
-          - MCP
-          - spaCy
-          - MedSpaCy
-          - Neo4j
-          - Chroma
-          - FAISS
-      - category: ML & NLP
-        items:
-          - Fine-tuning
-          - PEFT/LoRA
-          - vLLM
-          - RAG
-          - Text2SQL
-          - Prompt engineering
-          - Agentic systems
-          - Evaluation design
+      - label: Languages & Tools
+        details: Python, C/C++, SQL, Bash, Git, Docker, CUDA, AWS Bedrock, NVIDIA NIM
+      - label: Frameworks & Libraries
+        details: PyTorch, HuggingFace Transformers, LangChain, LangGraph, MCP, spaCy, MedSpaCy, Neo4j, Chroma, FAISS
+      - label: ML & NLP
+        details: Fine-tuning, PEFT/LoRA, vLLM, RAG, Text2SQL, Prompt engineering, Agentic systems, Evaluation design

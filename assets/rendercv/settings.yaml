@@ -1,7 +1,7 @@
 # for details on settings, see https://docs.rendercv.com/user_guide/yaml_input_structure/settings/
-settings:
+rendercv_settings:
   render_command:
-    # Paths must be relative to _data/cv.yaml
+    # Paths must be relative to _data/cv.yml
     design: ../assets/rendercv/design.yaml
     locale: ../assets/rendercv/locale.yaml
     typst_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
@@ -11,7 +11,6 @@ settings:
     png_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: true
     dont_generate_html: true
-    dont_generate_typst: false # typst generation is required for pdf output
     dont_generate_pdf: false
     dont_generate_png: true
   bold_keywords: []
