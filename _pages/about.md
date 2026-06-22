@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS <a href='https://www.compling.uw.edu/academic-experience/faculty/emily-bender-qa'>Computational Linguistics</a> @ University of Washington. Research engineer, clinical NLP and conversational agents.
+subtitle: Comp Ling & NLP · Responsible AI · AI in Healthcare
 
 profile:
   align: right
@@ -22,13 +22,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Hi! I'm a Master's student in [Computational Linguistics](https://www.compling.uw.edu/academic-experience/faculty/emily-bender-qa) (Department of Linguistics) at the University of Washington, and I work in the School of Nursing on conversational AI for clinical care. Right now I'm building a Spanish-language chatbot that helps people stay on their tuberculosis treatment — it answers medical questions from a curated knowledge base, offers DBT-informed coping support when someone is struggling, and hands off safely when a conversation hits crisis territory. Most of what I think about day to day is how to make agents like this behave predictably across all three of those modes without losing the warmth that makes people want to talk to them.
+Hi! I'm Priyanshi. I'm interested in NLP, human-centered AI, and what happens when language technologies are used in messy, high-stakes settings like clinical care.
 
-I came to UW from Carnegie Mellon, where I studied computer science (with a concentration in ML and, somewhat improbably, a minor in Russian). Before grad school I spent a stretch on the GenAI team at [Kinetica](https://www.kinetica.com/) shipping [`kinetica-mcp`](https://pypi.org/project/kinetica-mcp/) and working on a LangGraph platform that does root-cause analysis on 5G telecom data — that's where most of my taste for agentic systems comes from.
+Right now, I work in the University of Washington School of Nursing on a Spanish-language conversational agent for tuberculosis treatment support. The system answers medical questions from a curated knowledge base, offers DBT-informed coping support, and routes crisis-related conversations more carefully. The part I keep coming back to is how hard it is to make one system handle all of those situations well: staying grounded without being cold, being supportive without pretending to be a clinician, and being safe without turning every hard conversation into the same generic referral.
 
-My research lives at the seam between NLP, agent design, and the messy human side of deploying AI in high-stakes settings: how the data we label shapes what a model can see, what proactive agents owe the people they interrupt, and what it actually means to build clinical AI that respects the culture of the people it's meant to serve.
+More broadly, I think about clinical NLP, responsible AI, dataset construction, and conversational agents for sensitive contexts. I care about how the choices we make while building systems — the labels, prompts, data, evaluation methods, and deployment assumptions — shape what those systems can and cannot do for people.
+
+I'm also a Master's student in [Computational Linguistics](https://www.compling.uw.edu/) at the University of Washington. Before UW, I studied Computer Science at [Carnegie Mellon](https://www.cmu.edu/) and worked on GenAI infrastructure at [Kinetica](https://www.kinetica.com/), including [MCP tooling](https://pypi.org/project/kinetica-mcp/) and LangGraph-based agent systems. I like building complex AI systems, especially when building them also forces me to ask where they break, who they are for, and what it would take to make them safer and more useful in the real world.
