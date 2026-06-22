@@ -1,7 +1,7 @@
 cv:
   name: Priyanshi Garg
   label: MS Computational Linguistics, University of Washington
-  email: garg2@uw.edu
+  email: pgarg2@uw.edu
   location: Seattle, WA
   image: ""
   summary: Research engineer working on conversational agents and clinical NLP. MS Computational Linguistics @ UW, BS CS @ CMU.
@@ -84,13 +84,29 @@ cv:
           - Sole developer of an open-source Python package implementing a trial-by-trial, spike-timing-based Bayesian decoding algorithm using inter-spike interval (ISI) distributions to infer task-relevant information from non-classically responsive neurons.
 
       - company: CMU School of Computer Science
-        position: Teaching Assistant & AI Scholars Project Leader
+        position: Teaching Assistant, 15-317 Constructive Logic
         location: Pittsburgh, PA
-        start_date: 2022-01
+        start_date: 2023-08
         end_date: 2023-12
         highlights:
-          - TA for 15-317 Constructive Logic (Fall 2023) and 21-127 Concepts of Mathematics (Spring 2022).
-          - Led AI4ALL/AI Scholars pre-college program (Summer 2023) - delivered ML lectures and mentored under-represented high school students through image classification projects.
+          - TA for a graduate-level course on constructive (intuitionistic) logic, proof theory, and programs-as-proofs.
+
+      - company: CMU Computer Science Department
+        position: AI4ALL / AI Scholars Instructor
+        location: Pittsburgh, PA
+        start_date: 2023-06
+        end_date: 2023-07
+        highlights:
+          - Led the AI Scholars pre-college program - managed project-based learning and delivered lectures on AI for 30+ under-represented high school students in tech.
+          - Mentored student teams through image-classification capstone projects and final presentations.
+
+      - company: CMU School of Computer Science
+        position: Tutor & Mentor, 21-127 Concepts of Mathematics
+        location: Pittsburgh, PA
+        start_date: 2022-01
+        end_date: 2022-05
+        highlights:
+          - Held office hours and 1:1 mentoring for students new to formal proof writing in the introductory discrete-math course.
 
       - company: CoffeeSpace
         position: Software Engineer Intern
@@ -117,6 +133,14 @@ cv:
         highlights:
           - Computer vision project with Dr. George Kantor using deep learning to estimate fruit sizes.
           - Produced emotional behavior videos for the Teachable robot project in Dr. Reid Simmons's Reliable Autonomous Systems Lab.
+
+    Volunteering:
+      - company: Prometheus (Girls In the Know)
+        position: Pro Bono Data Solutions Consultant
+        start_date: 2024-07
+        end_date: 2025-02
+        highlights:
+          - Designed and delivered an automated outcomes-evaluation system for a youth nonprofit, translating non-technical stakeholder needs into a sustainable, user-friendly solution.
 
     Publications:
       - title: "Designing Structured Conversational Support for Tuberculosis Treatment Adherence and Patient Coping"

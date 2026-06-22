@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS Computational Linguistics @ <a href='https://www.washington.edu/'>University of Washington</a>. Research engineer, clinical NLP and conversational agents.
+subtitle: MS <a href='https://www.compling.uw.edu/academic-experience/faculty/emily-bender-qa'>Computational Linguistics</a> @ University of Washington. Research engineer, clinical NLP and conversational agents.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Paul G. Allen School / School of Nursing</p>
-    <p>University of Washington</p>
-    <p>Seattle, WA</p>
+    <p>Department of Linguistics</p>
+    <p>School of Nursing</p>
+    <p>University of Washington · Seattle, WA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Master's student in Computational Linguistics at the University of Washington, where I work as a research engineer in the School of Nursing on conversational agents for clinical care. My current project is **TB-DBTBot**, a LangGraph agent providing Spanish-language tuberculosis treatment support combining retrieval-grounded medical QA, DBT-informed coping support, and safety-gated crisis handling (CLPsych @ ACL 2026).
+Hi! I'm a Master's student in [Computational Linguistics](https://www.compling.uw.edu/academic-experience/faculty/emily-bender-qa) (Department of Linguistics) at the University of Washington, and I work in the School of Nursing on conversational AI for clinical care. Right now I'm building a Spanish-language chatbot that helps people stay on their tuberculosis treatment — it answers medical questions from a curated knowledge base, offers DBT-informed coping support when someone is struggling, and hands off safely when a conversation hits crisis territory. Most of what I think about day to day is how to make agents like this behave predictably across all three of those modes without losing the warmth that makes people want to talk to them.
 
-Before UW, I earned a BS in Computer Science from **Carnegie Mellon University** (concentration in Machine Learning, minor in Russian Studies). Most recently I was on the Generative AI team at **[Kinetica](https://www.kinetica.com/)**, where I shipped [`kinetica-mcp`](https://pypi.org/project/kinetica-mcp/) and built nodes for a production LangGraph platform doing root-cause analysis on 5G telecom data.
+I came to UW from Carnegie Mellon, where I studied computer science (with a concentration in ML and, somewhat improbably, a minor in Russian). Before grad school I spent a stretch on the GenAI team at [Kinetica](https://www.kinetica.com/) shipping [`kinetica-mcp`](https://pypi.org/project/kinetica-mcp/) and working on a LangGraph platform that does root-cause analysis on 5G telecom data — that's where most of my taste for agentic systems comes from.
 
-My research sits at the intersection of NLP, agentic systems, and human-centered design for clinical and high-stakes domains — including dataset construction for suicidality detection, value tensions in proactive agents, and culturally grounded evaluation of clinical AI.
+My research lives at the seam between NLP, agent design, and the messy human side of deploying AI in high-stakes settings: how the data we label shapes what a model can see, what proactive agents owe the people they interrupt, and what it actually means to build clinical AI that respects the culture of the people it's meant to serve.
